@@ -16,7 +16,6 @@ get '/random-cat' do
 end
 
 get '/cat-form' do
-  # @name = params[:name]
   erb(:cat_form)
 end
 
