@@ -10,4 +10,6 @@ ruby '3.0.0'
 group :development, :test do
   gem "sinatra"
   gem "sinatra-contrib"
+  gem "capybara"
+  gem "selenium-webdriver"
 end
